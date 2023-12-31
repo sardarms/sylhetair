@@ -1,0 +1,119 @@
+backend:
+  name: git-gateway
+  local_backend: true
+  branch: master
+
+media_folder: assets/img
+public_folder: static/img
+# publish_mode: editorial_workflow
+
+#display_url: https://bdarblaw.com 
+
+
+collections:
+  
+  - name: 'post'
+    label: 'Post'
+    folder: 'content/post'
+    create: true
+    slug: '{{year}}-{{month}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: "Featured image", name: "feature_image", widget: "image", required: false }
+      - { label: "Description for SEO", name: "description", widget: "string", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false, field: { name: text, label: Text, widget: string } }
+      - { label: "URL", name: "url", hint: "Imp: start with - /post/, there should not be any blank space. Otherwise, there will be 404 error. Use '-' in the middle of works.", widget: "string" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
+  - name: 'circular'
+    label: 'Circular'
+    folder: 'content/circular'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: "Featured image", name: "feature_image", widget: "image", required: false }
+      - { label: "Description for SEO", name: "description", widget: "string", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false, field: { name: text, label: Text, widget: string } }
+      - { label: "URL", name: "url", hint: "Imp: start with - /news/, there should not be any blank space. Otherwise, there will be 404 error. Use '-' in the middle of works.", widget: "string" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
+  - name: 'rules'
+    label: 'Rule'
+    folder: 'content/rule'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: "Featured image", name: "feature_image", widget: "image", required: false }
+      - { label: "Description for SEO", name: "description", widget: "string", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false, field: { name: text, label: Text, widget: string } }
+      - { label: "URL", name: "url", hint: "Imp: start with - /caselaw/, there should not be any blank space. Otherwise, there will be 404 error. Use '-' in the middle of works.", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: 'law'
+    label: 'Law'
+    folder: 'content/law'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', required: false }
+      - { label: "Featured image", name: "feature_image", widget: "image", required: false }
+      - { label: "Description for SEO", name: "description", widget: "string", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false, field: { name: text, label: Text, widget: string } }
+      - { label: "URL", name: "url", hint: "Imp: start with - /law/, there should not be any blank space. Otherwise, there will be 404 error. Use '-' in the middle of works.", widget: "string" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Weight", name: "weight", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
+  - name: 'regulation'
+    label: 'Fegulation'
+    folder: 'content/regulation'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: "Featured image", name: "feature_image", widget: "image", required: false }
+      - { label: "Description for SEO", name: "description", widget: "string", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false, field: { name: text, label: Text, widget: string } }
+      - { label: "URL", name: "url", hint: "Imp: start with - /news/, there should not be any blank space. Otherwise, there will be 404 error. Use '-' in the middle of works.", widget: "string" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: 'form'
+    label: 'Form'
+    folder: 'content/form'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: "Featured image", name: "feature_image", widget: "image", required: false }
+      - { label: "Description for SEO", name: "description", widget: "string", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false, field: { name: text, label: Text, widget: string } }
+      - { label: "URL", name: "url", hint: "Imp: start with - /news/, there should not be any blank space. Otherwise, there will be 404 error. Use '-' in the middle of works.", widget: "string" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }

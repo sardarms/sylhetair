@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lounge facilities at Osmani International Airport on Osmani International Airport</title>
+    <link>http://localhost:1313/lounge/</link>
+    <description>Recent content in Lounge facilities at Osmani International Airport on Osmani International Airport</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Sylhet Airport</copyright>
+    <atom:link href="http://localhost:1313/lounge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domestic Lounge facilities at Osmani International Airport</title>
+      <link>http://localhost:1313/domestic-lounge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/domestic-lounge/</guid>
+      <description>MTB Air Lounge # Air Lounge Terminal: Main Terminal Type: Domestic Departure (Lounge) Location: Ground Level Business Hours: 06:30 - 22:30 Max stay: 6 hours Children: Children under 2 years old are admitted free.</description>
+      
+    </item>
+    
+    <item>
+      <title>International Lounge facilities at Osmani International Airport</title>
+      <link>http://localhost:1313/international-lounge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/international-lounge/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

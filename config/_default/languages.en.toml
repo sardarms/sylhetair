@@ -1,0 +1,24 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
+weight = 1
+rtl = false
+
+title = "Osmani International Airport"
+logo = "img/logo.png"
+description = "an unofficial website of Osmani International Airport at Sylhet"
+copyright = "Copy, _right?_ :thinking_face:"
+
+dateFormat = "2 January 2006"
+
+[author]
+  name = "Sylhet Airport"
+  #image = "img/avatar.png"
+  #headline = "Sylhet Airport"
+  #bio = "A little bit about you"
+   links = [
+     { link = "https://sylhetairport.com/" },
+    # { github = "https://github.com/nunocoracao/blowfish" },
+    # { x-twitter = "https://twitter.com/burufugu" }
+   ]

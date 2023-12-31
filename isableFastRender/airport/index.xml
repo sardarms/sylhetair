@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osmani International Airport</title>
+    <link>http://localhost:1313/airport/</link>
+    <description>Recent content on Osmani International Airport</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Sylhet Airport</copyright>
+    <atom:link href="http://localhost:1313/airport/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brief History Of Osmani International Airport</title>
+      <link>http://localhost:1313/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/history/</guid>
+      <description>Osmani International Airport, located in Sylhet, Bangladesh, was built during the Second World War in 1944-1945.</description>
+      
+    </item>
+    
+    <item>
+      <title>About the Osmani International Airport (ZYL)</title>
+      <link>http://localhost:1313/about-airport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about-airport/</guid>
+      <description>Osmani International Airport, also known as Sylhet Airport, is the third largest airport in Bangladesh after Dhaka and Chittagong.</description>
+      
+    </item>
+    
+    <item>
+      <title>Terminal at Osmani International Airport</title>
+      <link>http://localhost:1313/terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/terminal/</guid>
+      <description>The airport has one building that contain both international and domestic terminals.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Currency facilities at Osmani International Airport on Osmani International Airport</title>
+    <link>http://localhost:1313/passenger/</link>
+    <description>Recent content in Currency facilities at Osmani International Airport on Osmani International Airport</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Sylhet Airport</copyright>
+    <atom:link href="http://localhost:1313/passenger/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guide for Domestic Arrival at Osmani International Airport</title>
+      <link>http://localhost:1313/domestic-arrival/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/domestic-arrival/</guid>
+      <description>Don&amp;rsquo;t forget to take your hand luggage and all your belongings when getting off the plane.</description>
+      
+    </item>
+    
+    <item>
+      <title>Guide for Domestic Departure at Osmani International Airport</title>
+      <link>http://localhost:1313/domestic-departure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/domestic-departure/</guid>
+      <description>Confirm your flight # Passengers will receive a confirmation mail from the airline after the booking is complete.</description>
+      
+    </item>
+    
+    <item>
+      <title>Guide for International Arrival at Osmani International Airport</title>
+      <link>http://localhost:1313/international-arrival/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/international-arrival/</guid>
+      <description>Don&amp;rsquo;t forget to take your hand luggage and all your belongings when getting off the plane.</description>
+      
+    </item>
+    
+    <item>
+      <title>Guide for International Departure at Osmani International Airport</title>
+      <link>http://localhost:1313/international-departure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/international-departure/</guid>
+      <description>Confirm your flight # Passengers will receive a confirmation mail from the airline after the booking is complete.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

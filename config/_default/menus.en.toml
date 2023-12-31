@@ -1,0 +1,121 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+
+[[main]]
+identifier = "home"
+name = "Home"
+weight = 1
+url = "/"
+
+[[main]]
+name = "The Airport"
+identifier = "airport"
+weight = 2
+
+[[main]]
+name = "History"
+parent = "airport"
+url = "/history"
+weight = 300
+
+[[main]]
+name = "The Airport"
+parent = "airport"
+url = "/about-airport"
+weight = 400
+
+[[main]]
+name = "Terminal"
+parent = "airport"
+url = "/Terminal"
+weight = 500
+
+[[main]]
+name = "Transport"
+identifier = "transport"
+url = "/transport"
+weight = 40
+
+[[main]]
+name = "Facilities"
+identifier = "facilities"
+weight = 80
+
+[[main]]
+name = "Shopping and Dining"
+parent = "facilities"
+url = "/shopping-dining"
+weight = 1
+
+[[main]]
+name = "Lounge"
+parent = "facilities"
+url = "/lounge"
+weight = 6
+
+[[main]]
+name = "Currency Exchange"
+parent = "facilities"
+url = "/currency-exchange"
+weight = 6
+
+[[main]]
+name = "Wifi & Sim"
+parent = "facilities"
+url = "/wifi-simcard"
+weight = 6
+
+
+
+
+###########################
+
+[[footer]]
+name = "Explore the City"
+weight = 100
+url = "/explore-city"
+
+[[footer]]
+name = "Useful Info"
+url = "//useful-info"
+weight = 1
+
+[[footer]]
+name = "Passenger Guide"
+url = "/passenger"
+weight = 20
+
+[[footer]]
+name = "Visa"
+url = "/visa"
+weight = 30
+
+[[footer]]
+name = "Baggage service"
+url = "/baggage"
+weight = 113
+
+[[footer]]
+name = "Useful Contact"
+url = "/useful-contact"
+weight = 15
+
+#[[footer]]
+#name = "About"
+#url = "/about"
+#weight = 150
+
+#[[footer]]
+#name = "Contact"
+#url = "/contact"
+#weight = 155

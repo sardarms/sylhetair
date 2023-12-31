@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Useful Information about Osmani International Airport on Osmani International Airport</title>
+    <link>http://localhost:1313/useful-info/</link>
+    <description>Recent content in Useful Information about Osmani International Airport on Osmani International Airport</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Sylhet Airport</copyright>
+    <atom:link href="http://localhost:1313/useful-info/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dutiable and Prohibited items at Osmani International Airport</title>
+      <link>http://localhost:1313/dutiable-prohibited-items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dutiable-prohibited-items/</guid>
+      <description>Like most countries, Bangladesh has a list of dutiable and prohibited items that are restricted from being brought into the country.</description>
+      
+    </item>
+    
+    <item>
+      <title>Facilities at Osmani International Airport</title>
+      <link>http://localhost:1313/facilities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/facilities/</guid>
+      <description>Osmani International Airport offers a range of services for passengers to ensure a comfortable and convenient travel experience.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
